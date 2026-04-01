@@ -1,0 +1,25 @@
+{
+  "name": "neos-world-ad-agent",
+  "description": "Neo's World Ad Agent",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build-ad-index": "node ./agent/build-ad-index.js",
+    "start": "node ./agent/index.js",
+    "clean": "node ./agent/index.js --clean"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/neos-world-ad-agent#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/neos-world-ad-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/neos-world-ad-agent/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  }
+}
